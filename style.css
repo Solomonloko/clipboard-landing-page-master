@@ -1,4 +1,11 @@
+@import url(./font/baijamjuree-regular.ttf);
+
 *{
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'Bai Jamjuree';
+    src: url(.font/baijamjuree-regular.ttf);
+  }
 
