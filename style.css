@@ -1,12 +1,229 @@
 @import url(./font/baijamjuree-regular.ttf);
 
-*{
+* {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @font-face {
-    font-family: 'Bai Jamjuree';
+    font-family: 'baijamjuree-regular';
     src: url(.font/baijamjuree-regular.ttf);
-  }
+}
 
+.img {
+    box-sizing: border-box;
+    display: flex;
+    padding-top: 7rem;
+    height: 17rem;
+    width: auto;
+    justify-content: center;
+    background: linear-gradient(180deg, #0000, #FFFF) 100%, url(./images/bg-header-desktop.png) no-repeat 100%;
+}
+
+img.img-logo {
+    height: 7rem;
+    width: 7rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto 25%;
+    margin-bottom: 10rem;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 3rem;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 0.9rem 2.3rem;
+    margin: 0 1rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    border: 0px;
+    font-weight: 600;
+}
+
+button.ios {
+    background-color: hsl(171, 66%, 44%);
+}
+
+button.ios:hover {
+    border: 2px solid hsl(171, 46%, 24%);
+}
+
+button.mac {
+    background-color: hsl(233, 100%, 69%);
+}
+
+button.mac:hover {
+    border: 2px solid hsl(233, 46%, 24%);
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto 25%;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: -3rem;
+    margin-bottom: 10rem;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.second-section>#img1 {
+    width: 75%;
+    height: 75%;
+}
+
+.left-section {
+    padding-right: 20rem;
+    padding-left: 7rem;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto 25%;
+}
+
+#img2 {
+    margin-top: 10rem;
+}
+
+.fourth-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.lower-section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5rem;
+    padding: 2rem 10rem;
+    justify-content: space-between;
+    line-height: 2rem;
+}
+
+.img3 {
+    margin-bottom: 2rem;
+}
+
+.first-card:hover {
+    border: 1px solid hsl(210, 4%, 80%);
+    border-radius: 20px;
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.fifth-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10rem;
+    margin-bottom: 10rem;
+}
+
+.sixth-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto 25%;
+    margin-bottom: 10rem;
+}
+
+.footer {
+    background-color: hsl(210, 13%, 94%);
+    padding: 4rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.logo {
+    display: flex;
+}
+
+img.img4 {
+    width: 5rem;
+}
+
+#faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#faq>p>a {
+    text-decoration: none;
+    color: black;
+    padding: 0 3rem;
+
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+}
+
+#attribution>p>a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
