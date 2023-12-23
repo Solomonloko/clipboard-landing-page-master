@@ -21,5 +21,6 @@ Clipboard is a single-page web application that transforms your messy clipboard 
 
 **Questions & Feedback:**
 We love hearing from our users! Reach out to us at solomania2000@gmail.com with any questions or feedback.
+Check the master branch for the code!
 
 Clipboard – Your personal copy command center!
